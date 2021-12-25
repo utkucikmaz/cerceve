@@ -1,0 +1,40 @@
+#img {
+  width: 750px;
+  height: auto;
+  border-radius: 3px;
+}
+
+#frame {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1100px;
+  height: 800px;
+  background-color: #432818;
+  border-radius: 3px;
+}
+
+#container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1000px;
+  height: 700px;
+  background-color: #ffe8d6;
+  border-radius: 3px;
+}
+
+#flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#buttons {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 24px;
+}
