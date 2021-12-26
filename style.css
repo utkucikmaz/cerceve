@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  font-size: 62.5%;
+}
 
 body {
   font-family: sans-serif;
@@ -11,15 +14,15 @@ body {
 
 #all {
   transform: scale(0.875);
-  margin-top: -30px;
+  margin-top: -3rem;
 }
 
 #frame {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 1100px;
-  height: 800px;
+  width: 110rem;
+  height: 80rem;
   background-color: #432818;
   border-radius: 3px;
 }
@@ -28,8 +31,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 1000px;
-  height: 700px;
+  width: 100rem;
+  height: 70rem;
   background-color: #d7bca7;
   border-radius: 3px;
 }
@@ -41,17 +44,17 @@ body {
 }
 
 #buttons {
-  margin-top: 30px;
+  margin-top: 3rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
-  font-size: 22px;
+  gap: 2rem;
+  font-size: 2.2rem;
 }
 
 #has-image {
-  width: 750px;
-  height: 500px;
+  width: 75rem;
+  height: 50rem;
   border-radius: 3px;
   background-image: url("image2.jpeg");
   background-position: center;
@@ -69,9 +72,9 @@ body {
   align-items: center;
   background-color: #d3f9d8;
   border-radius: 10px;
-  width: 120px;
-  height: 40px;
-  margin-right: 150px;
+  width: 12rem;
+  height: 4rem;
+  margin-right: 15rem;
   transition: all 0.3s;
 }
 
@@ -87,9 +90,9 @@ body {
   color: #333;
   background-color: #d3f9d8;
   border-radius: 10px;
-  width: 180px;
-  height: 40px;
-  margin-left: 150px;
+  width: 18rem;
+  height: 4rem;
+  margin-left: 15rem;
   transition: all 0.3s;
   text-decoration: none;
 }
@@ -97,4 +100,50 @@ body {
 .wall-link:hover {
   background-color: #b2f2bb;
   box-shadow: 2px 1px 3px 1px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 40em) {
+  #flex {
+    width: 37rem;
+  }
+  #frame {
+    width: 37rem;
+    height: 30rem;
+  }
+  #container {
+    width: 33rem;
+    height: 26rem;
+  }
+  #has-image {
+    width: 25rem;
+    height: 20rem;
+  }
+  #buttons {
+    width: 35rem;
+    font-size: 1rem;
+    gap: 2rem;
+    /* transform: scale(0.5); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .ch-image {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    background-color: #d3f9d8;
+    border-radius: 10px;
+    width: 6rem;
+    height: 3rem;
+    margin-right: 0rem;
+  }
+  .wall-link {
+    background-color: #d3f9d8;
+    border-radius: 10px;
+    width: 6rem;
+    height: 3rem;
+    margin-left: 0rem;
+  }
 }
