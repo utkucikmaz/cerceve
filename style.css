@@ -120,13 +120,21 @@ body {
   }
   #buttons {
     width: 35rem;
-    font-size: 1rem;
+    font-size: 1.3rem;
     gap: 2rem;
     /* transform: scale(0.5); */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+  .back {
+    background-color: #639d6b;
+    width: 15rem;
+    height: 3rem;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
   }
   .ch-image {
     /* display: flex;
@@ -135,14 +143,14 @@ body {
     align-items: center; */
     background-color: #d3f9d8;
     border-radius: 10px;
-    width: 6rem;
+    width: 30rem;
     height: 3rem;
     margin-right: 0rem;
   }
   .wall-link {
     background-color: #d3f9d8;
     border-radius: 10px;
-    width: 6rem;
+    width: 30rem;
     height: 3rem;
     margin-left: 0rem;
   }
