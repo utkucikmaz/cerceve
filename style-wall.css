@@ -17,11 +17,11 @@ body {
 }
 
 #all {
-  position: absolute;
-  left: 300px;
-  top: -170px;
-  cursor: pointer;
   transform: scale(0.35);
+  position: absolute;
+  left: 15%;
+  top: -25%;
+  cursor: pointer;
   transition: all 0.8s;
 }
 
