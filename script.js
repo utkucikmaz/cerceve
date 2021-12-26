@@ -11,3 +11,7 @@ $(document).ready(function () {
     $("#frame").css("background-color", clr);
   });
 });
+var loadFile = function (event) {
+  var image = document.getElementById("has-image");
+  image.src = URL.createObjectURL(event.target.files[0]);
+};

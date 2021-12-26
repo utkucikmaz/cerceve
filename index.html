@@ -15,17 +15,20 @@
   <div id="frame">
     <div id="container">
       <div id="img-box">
-        <img id="img" src="image2.jpeg">
+        <img id="has-image" ></img>
       </div>
     </div>
   </div>
 </div>
   <div id="buttons">
+  <p class="ch-image" id="choose-image" value=""><label for="file" style="cursor: pointer;">Resim Sec</label></p>
   <label for="color-paspartu">Paspartu Rengi  </label>
   <input type="color" id="color-paspartu" name="color-paspartu" value="#ffe8d6">
   <label for="color-frame">// Cerceve Rengi</label>
   <input type="color" id="color-frame" name="color-frame" value="#432818">
-</div>
+  <p><input type="file"  accept="image/*" name="image" id="file"  onchange="loadFile(event)" value=""></p>
+  <a class="wall-link" href="index-wall.html">Duvarda gör</a>
+  </div>
 </div>
 
 
