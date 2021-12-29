@@ -102,6 +102,65 @@ body {
   box-shadow: 2px 1px 3px 1px rgba(0, 0, 0, 0.2);
 }
 
+@media (max-width: 45em) {
+  #flex {
+    width: 65rem;
+    margin: 1.5rem auto;
+  }
+
+  #frame {
+    width: 45rem;
+    height: 33rem;
+    margin: 0 auto;
+  }
+
+  #container {
+    width: 42rem;
+    height: 30rem;
+    margin: 0 auto;
+  }
+  #has-image {
+    width: 35rem;
+    height: 24rem;
+    margin: 0 auto;
+  }
+
+  #buttons {
+    width: 40rem;
+    font-size: 1.3rem;
+    /* transform: scale(0.5); */
+    display: flex;
+    flex-direction: row;
+    margin: 1rem auto 0 auto;
+  }
+  .back {
+    background-color: #639d6b;
+    width: 15rem;
+    height: 3rem;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+  }
+  .ch-image {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    background-color: #d3f9d8;
+    border-radius: 10px;
+    width: 30rem;
+    height: 3rem;
+    margin-right: 0rem;
+  }
+  .wall-link {
+    background-color: #d3f9d8;
+    border-radius: 10px;
+    width: 30rem;
+    height: 3rem;
+    margin-left: 0rem;
+  }
+}
+
 @media (max-width: 40em) {
   #flex {
     width: 37rem;
