@@ -116,7 +116,7 @@ body {
   box-shadow: 2px 1px 3px 1px rgba(0, 0, 0, 0.2);
 }
 
-@media (max-width: 45em) {
+@media (max-width: 50em) {
   body {
     background-image: url("wall-land2.jpg");
     background-position: center;
